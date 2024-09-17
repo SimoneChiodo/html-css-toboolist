@@ -6,7 +6,6 @@
     padding: 0;
 
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
     font-style: normal;
 }
 
@@ -15,13 +14,16 @@
 .container {
     margin: auto;
     margin-top: 5px;
-    padding: 0 10px;
-    width: 1000px;
     max-width: 100%;
+    width: 800px;
 }
 
 .green{
     color: green;
+}
+
+.red{
+    color: red;
 }
 
 /* header */
@@ -51,7 +53,7 @@ body{
     background-color: cadetblue;
 }
 
-section{
+.white-background{
     background-color: white;
     border-radius: 5px;
     padding: 10px 30px;
@@ -68,16 +70,51 @@ button{
     font-weight: 500;
 }
 
-#button-task{
+.button-task{
     background-color: #41a9ec;
     color:white;
     border: 1px solid transparent;
 }
 
-#button-section{
+.button-section{
     background-color: white;
     border: 1px solid lightgray;
     color: lightgray;
 }
 
 /* SEZIONE TASK */
+.etichetta{
+    border-radius: 30px;
+    color: white;
+    padding: 5px 10px;
+    display: inline;
+    font-size: .68rem;
+}
+
+section>p{
+    display: inline;
+}
+
+.lightblu{
+    background-color: #41a9ec;
+}
+
+.lightviolet{
+    background-color: #9d78e2;
+}
+
+.lightgreen{
+    background-color: #64c2a4;
+}
+
+.lightorange{
+    background-color: #f09f38;
+}
+
+.lightpink{
+    background-color: #ce6997;
+}
+
+.lightgreen{
+    background-color: #b1ca2b;
+}
