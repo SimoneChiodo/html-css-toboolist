@@ -13,10 +13,15 @@
 /* utils */
 
 .container {
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 5px;
     padding: 0 10px;
     width: 1000px;
     max-width: 100%;
+}
+
+.green{
+    color: green;
 }
 
 /* header */
@@ -24,22 +29,21 @@ header{
     background-color: white;
 }
 
+.logo-container{
+    padding: 15px 30px;
+    line-height: 60px; /* per centrare il testo con l'immagine */
+}
+
 h1{
     display: inline;
     font-size: 2.5rem;
     font-weight: 500;
+    vertical-align: middle; /* per centrare il testo con l'immagine */
 }
 
-#logo-container{
-    padding-left: 30px;
-    padding-top: 15px;
-    
-    /* line-height: 20px; */
-
-}
-
-#logo-immagine{
-    width: 65px;
+.logo-immagine{
+    width: 60px;
+    vertical-align: middle; /* per centrare il testo con l'immagine */
 }
 
 /* main */
@@ -53,7 +57,8 @@ section{
     padding: 10px 30px;
 }
 
-#nav-tab{
+/* SEZIONI PULSANTI */
+.nav-tab{
     margin-top: 50px;
 }
 
@@ -74,3 +79,5 @@ button{
     border: 1px solid lightgray;
     color: lightgray;
 }
+
+/* SEZIONE TASK */
